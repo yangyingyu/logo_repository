@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="logo_basic_util" />
+        <module name="logo_config_server_1299" />
+        <module name="logo_eureka_server_7001" />
+        <module name="logo_plat_interface" />
+        <module name="logo_plat_service_8001" />
+        <module name="logo_zuul_server_9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="logo_basic_parent" target="1.5" />
+      <module name="logo_basic_util" target="1.5" />
+      <module name="logo_config_server_1299" target="1.5" />
+      <module name="logo_eureka_server_7001" target="1.5" />
+      <module name="logo_parent" target="1.5" />
+      <module name="logo_plat_interface" target="1.5" />
+      <module name="logo_plat_parent" target="1.5" />
+      <module name="logo_plat_service_8001" target="1.5" />
+      <module name="logo_zuul_server_9527" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
