@@ -1,4 +1,4 @@
-package cn.itsource.aigou.domain;
+package cn.itsource.logo.domain;
 
 public class Employee {
     private Long id;

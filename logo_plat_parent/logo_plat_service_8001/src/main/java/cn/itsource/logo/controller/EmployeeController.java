@@ -1,6 +1,6 @@
 package cn.itsource.logo.controller;
 
-import cn.itsource.aigou.domain.Employee;
+import cn.itsource.logo.domain.Employee;
 import cn.itsource.logo.util.AjaxResult;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

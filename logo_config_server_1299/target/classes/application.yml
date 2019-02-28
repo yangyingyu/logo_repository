@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: logo-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yangyingyu/logo_config_repository.git  #git文件地址
+          username: 978374218@qq.com
+          password: yangjun978374218

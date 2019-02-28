@@ -1,0 +1,19 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: LOGO-PRODUCT
+  datasource:  #数据库的配置
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/logo_product?useUnicode=true&characterEncoding=UTF-8  #防止中文乱码
+    username: root
+    password: 123321
+mybatis-plus:
+  mapper-locations: classpath:cn/itsource/logo/mapper/*Mapper.xml #扫mapper映射
+  type-aliases-package: cn.itsource.logo.domain,cn.itsource.logo.query  #别名的配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true

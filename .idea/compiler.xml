@@ -9,21 +9,28 @@
         <module name="logo_basic_util" />
         <module name="logo_config_server_1299" />
         <module name="logo_eureka_server_7001" />
+        <module name="logo_mp_generated" />
         <module name="logo_plat_interface" />
         <module name="logo_plat_service_8001" />
+        <module name="logo_product_interface" />
+        <module name="logo_product_service_8002" />
         <module name="logo_zuul_server_9527" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="logo_basic_parent" target="1.5" />
-      <module name="logo_basic_util" target="1.5" />
-      <module name="logo_config_server_1299" target="1.5" />
-      <module name="logo_eureka_server_7001" target="1.5" />
-      <module name="logo_parent" target="1.5" />
-      <module name="logo_plat_interface" target="1.5" />
-      <module name="logo_plat_parent" target="1.5" />
-      <module name="logo_plat_service_8001" target="1.5" />
-      <module name="logo_zuul_server_9527" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="logo_basic_parent" target="1.8" />
+      <module name="logo_basic_util" target="1.8" />
+      <module name="logo_config_server_1299" target="1.8" />
+      <module name="logo_eureka_server_7001" target="1.8" />
+      <module name="logo_mp_generated" target="1.8" />
+      <module name="logo_parent" target="1.8" />
+      <module name="logo_plat_interface" target="1.8" />
+      <module name="logo_plat_parent" target="1.8" />
+      <module name="logo_plat_service_8001" target="1.8" />
+      <module name="logo_product_interface" target="1.8" />
+      <module name="logo_product_parent" target="1.8" />
+      <module name="logo_product_service_8002" target="1.8" />
+      <module name="logo_zuul_server_9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
