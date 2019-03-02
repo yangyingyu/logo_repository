@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/logo_basic_parent/logo_basic_parent.iml" filepath="$PROJECT_DIR$/logo_basic_parent/logo_basic_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/logo_basic_parent/logo_basic_util/logo_basic_util.iml" filepath="$PROJECT_DIR$/logo_basic_parent/logo_basic_util/logo_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logo_common_parent/logo_common_interface/logo_common_interface.iml" filepath="$PROJECT_DIR$/logo_common_parent/logo_common_interface/logo_common_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logo_common_parent/logo_common_parent.iml" filepath="$PROJECT_DIR$/logo_common_parent/logo_common_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logo_common_parent/logo_common_service/logo_common_service.iml" filepath="$PROJECT_DIR$/logo_common_parent/logo_common_service/logo_common_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/logo_config_server_1299/logo_config_server_1299.iml" filepath="$PROJECT_DIR$/logo_config_server_1299/logo_config_server_1299.iml" />
       <module fileurl="file://$PROJECT_DIR$/logo_eureka_server_7001/logo_eureka_server_7001.iml" filepath="$PROJECT_DIR$/logo_eureka_server_7001/logo_eureka_server_7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/logo_mp_generated/logo_mp_generated.iml" filepath="$PROJECT_DIR$/logo_mp_generated/logo_mp_generated.iml" />

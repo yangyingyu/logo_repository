@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logo_basic_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logo_basic_parent/logo_basic_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logo_common_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logo_common_parent/logo_common_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/logo_common_parent/logo_common_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logo_config_server_1299" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logo_eureka_server_7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logo_mp_generated" charset="UTF-8" />

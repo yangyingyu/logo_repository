@@ -10,6 +10,11 @@ eureka:
   instance:
     instance-id: gateway-9527.com
     prefer-ip-address: true
+
+
+
+
+
 zuul:
   routes:
     logoEmployee.serviceId: employee-provider
@@ -17,5 +22,20 @@ zuul:
   #产品的服务路由:
     logoProduct.serviceId: logo-product
     logoProduct.path: /product/**
+    
+    logoCommon.serviceId: common-privoder
+    logoCommon.path: /common/**
   ignored-services: "*" #user-provider #忽略直接使用服务名访问  *忽略所有的
-  prefix: /logo   # 访问前缀
+  prefix: /logo
+
+  host:
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 60000 # 访问前缀
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds:  60000

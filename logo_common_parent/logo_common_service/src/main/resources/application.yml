@@ -1,0 +1,14 @@
+server:
+  port: 8003
+  jetty:
+    max-http-post-size: 4048567
+spring:
+  application:
+    name: COMMON-PRIVODER
+eureka:
+  instance:
+    hostname: localhsot
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/

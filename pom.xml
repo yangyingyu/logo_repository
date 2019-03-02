@@ -16,6 +16,7 @@
         <module>logo_plat_parent</module>
         <module>logo_mp_generated</module>
         <module>logo_product_parent</module>
+        <module>logo_common_parent</module>
     </modules>
     <!--变量的声明-->
     <properties>
